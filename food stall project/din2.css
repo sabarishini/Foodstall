@@ -1,0 +1,59 @@
+.logo{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	padding: 60px;
+	margin-right: 40%;
+	margin-left: 40%;
+
+}
+
+body{
+     background-image: url("https://st.depositphotos.com/1005682/2476/i/450/depositphotos_24762569-stock-photo-fast-food-hamburger-hot-dog.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: 100% 100%;
+     }
+     /* Add a black background color to the top navigation */
+.topnav {
+  background-color: darkgray;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: top;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 5px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkorange;
+  color: white;
+}
+/* change button style */
+button{
+	 border-radius: 5px;
+	 height: 40px;
+	 width: 120px;
+	 background-color: darkorange;
+	 color: white;
+	 background: transparent;
+	 border-color: white;
+
+}
